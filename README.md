@@ -1,4 +1,47 @@
 # Practise_HR
+
+create new folder
+dotnet new sln
+dotnet new classlib -o BOL
+dotnet new classlib -o BLL
+dotnet new classlib -o DAL
+dotnet new mvc -o app
+(Add references to app of BOL,DAL,BLL)
+dotnet add \app.csproj reference BOL\BOL.csproj
+dotnet add \app.csproj reference BLL\BLL.csproj
+dotnet add \app.csproj reference DAL\DAL.csproj
+
+
+now start coding
+DAL
+cd DAL
+dotnet add package mysql.data
+
+add bol reference to dal
+
+BOL&DAL reference to BLl
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 sudo yum update
 sudo yum install git
 sudo yum install docker
