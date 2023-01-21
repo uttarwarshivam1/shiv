@@ -1,5 +1,10 @@
 # Practise_HR
 
+
+https://github.com/gunjalrushabh/MVC-DOTNET-7-APP.git
+
+
+
 create new folder
 dotnet new sln
 dotnet new classlib -o BOL
